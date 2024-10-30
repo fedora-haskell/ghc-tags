@@ -26,7 +26,7 @@ Source0:        https://hackage.haskell.org/package/%{name}-%{version}/%{name}-%
 BuildRequires:  ghc-Cabal-devel
 BuildRequires:  ghc-rpm-macros
 %if %{defined ghc_name}
-BuildRequires:  ghc9.2-devel
+BuildRequires:  ghc9.2
 %else
 BuildRequires:  ghc-aeson-devel
 BuildRequires:  ghc-async-devel
