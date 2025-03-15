@@ -10,7 +10,7 @@
 %global debug_package %{nil}
 
 Name:           ghc-tags
-Version:        1.8
+Version:        1.9
 Release:        1%{?dist}
 Summary:        Utility for generating ctags and etags with GHC API
 
@@ -121,6 +121,9 @@ help2man --no-info %{buildroot}%{_bindir}/%{name} > %{buildroot}%{_mandir}/man1/
 
 
 %changelog
+* Sat Mar 15 2025 Jens Petersen  <petersen@redhat.com> - 1.9-1
+- https://hackage.haskell.org/package/ghc-tags-1.9/changelog
+
 * Wed Mar 12 2025 Jens Petersen <petersen@redhat.com> - 1.8-1
 - https://hackage.haskell.org/package/ghc-tags-1.8/changelog
 
